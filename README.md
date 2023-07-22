@@ -264,7 +264,7 @@ class Human extends Animal{
         _name = name
     }
     override func say(thing: String) -> String{
-        print("Hello there")
+        print(thing)
     }
 }
 class Dog extends Animal{
@@ -275,8 +275,8 @@ class Dog extends Animal{
 
 let dog = new Dog()
 let person = new Person("Person1")
-person.say() //Hello there
-dog.say() //Bark, bark
+person.say("Hello there") //Hello there
+dog.say("") //Bark, bark
 ```
 
 ---
