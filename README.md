@@ -256,19 +256,19 @@ Here is an example showing all these features:
 
 ```swift
 protocol Animal{
-    func say(thing: String) -> String
+    func say(thing: String) -> Void
 }
 class Human extends Animal{
     let internal _name: String
     func init(name){
         _name = name
     }
-    override func say(thing: String) -> String{
+    override func say(thing: String) -> Void{
         print(thing)
     }
 }
 class Dog extends Animal{
-    override func say(thing: String) -> String{
+    override func say(thing: String) -> Void{
         print("Bark, bark")
     }
 }
