@@ -57,6 +57,7 @@ inmain func greet(name: String){
 `mut` variables can me modified but not reassigned.
 
 `var` variables can be reassigned but not modified.
+You can interpolate variables using the `$variable` syntax.
 
 For example:
 
