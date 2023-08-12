@@ -275,7 +275,7 @@ class Dog extends Animal{
 }
 
 let dog = new Dog()
-let person = new Person("Person1")
+let person = new Human("Person1")
 person.say("Hello there") //Hello there
 dog.say("") //Bark, bark
 ```
