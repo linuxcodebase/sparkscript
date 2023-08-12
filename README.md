@@ -249,7 +249,7 @@ const person2: Human = new Human(name = "person2")
 
 Use inheritance with the `extends` keyword. Function overrides can be achieved using `override`.
 
-Propeties can be made `public`, `private` or `internal`. `internal` is like `protected` in many other languages.
+Propeties can be made `public`, `private` or `internal`. `internal` is like `protected` in many other languages. Methods are `public` by default and variables are `private` by default.
 
 Interfaces can be declared using `protocol`. They are like abstract classes.
 
@@ -279,7 +279,13 @@ let person = new Person("Person1")
 person.say("Hello there") //Hello there
 dog.say("") //Bark, bark
 ```
-
+Generics are created using `<T>` eg:
+```swift
+class GenericTest<T>{
+    let public x: T;
+    //...
+}
+```
 ---
 
 ## Functional Programming
